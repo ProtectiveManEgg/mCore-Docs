@@ -1,16 +1,16 @@
 # mCore-Docs
 ```lua
 return {
-	group = {					-- Group information
-		adminHRs = true, 			-- High ranks will be considered admins
-		id = 0,					-- Your group ID
-		rank = 0,				-- Minimum rank in group to be considered a high rank
+	group = {				-- Group information
+		adminHRs = true, 		-- High ranks will be considered admins
+		id = 0,				-- Your group ID
+		rank = 0,			-- Minimum rank in group to be considered a high rank
 		uniform = {
 			top = 0,
 			bottom = 0,
 	},
 	admins = {
-							-- [name] = id; you don't have to add both
+						-- [name] = id; you don't have to add both
 		["ApocalypseManEgg"] = 72915450
 	},
 	terminal = {
