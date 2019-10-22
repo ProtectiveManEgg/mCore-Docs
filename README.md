@@ -1,5 +1,5 @@
 # mCore-Docs
-
+```lua
 return {
 	group = {					-- Group information
 		adminHRs = true, 		-- High ranks will be considered admins
@@ -63,3 +63,4 @@ return {
 		anti = false, 			-- anti-exploit
 	}
 }
+```
