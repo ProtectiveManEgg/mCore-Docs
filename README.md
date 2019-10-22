@@ -43,7 +43,7 @@ return {
 	},
 	banstore = "",				-- Name of datastore for if you're using the anti-exploit (I recommend you randomize this)
 	
-	modules = { -- if these are set to false, it should disable the module
+	modules = { 				-- if these are set to false, it should disable the module
 		chat = false, 			-- custom chat 
 		health = false, 		-- custom health bar
 		leaderboard = false,		-- custom player list
