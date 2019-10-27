@@ -15,6 +15,7 @@ return {
 	},
 	terminal = {
 		domination = true,		-- One terminal with both teams able to capture points
+		overtime = false,		-- When this is enabled and the server validity timer runs out, the server won't end if the raiders have control over the terminal
 		captureTime = 400,		-- How many points, or how much time (minutes) required to win
 		totalTime = 1,			-- How long (hours) the server will stay valid for
 		defenderMultiplier = 2,		-- How much faster the defenders will rollback the terminal (not for domination-mode)
